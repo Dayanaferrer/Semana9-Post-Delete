@@ -1,16 +1,16 @@
 [
     {
-        "nome": "Isabelle Priscila",
         "id": "2020691",
+        "nomeColaboradora": "Isabelle Priscila",
         "setor": "",
         "ocupacao": "",
         "horarioDeTrabalho": "8:00h - 18:00h "
     },
     {
-        "nome": "Alexandra Martins",
         "id": "2020692",
+        "nomeColaboradora": "Alexandra Martins",
         "setor": "Midia",
         "ocupacao": "Fotografa",
-        "horarioDeTrabalho": "8:00h - 18:00h "
+        "horarioDeTrabalho": "15:00h - 18:30h "
     }
 ]

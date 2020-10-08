@@ -7,6 +7,7 @@ const getAllLivros = (req, res) => {
 };
 
 const deletarLivro = (req,res) => {
+   
     res.status(200).send(livros);
 };
 
@@ -22,19 +23,15 @@ const getLivrosGenero = (req,res) => {
     res.status(200).send(getLivrosGenero);
 };
 
-const postColaboradoras = (req,res) => {
-    console.log(req.body);
-
-};
-
 const getAgeByID = (req,res) => {
     const anoAtual = 2020;
     const id = req.params.id;
     const nome = filtered.nome;
-    const anoDeNascimento = filtered.id.slice (3, -2);
+    const anoDeNascimento = filtered.id.slice (2, -4);
     const idade = anoAtual - anoDeNascimento;
     res.status(200).send (`Colaboradora com o id ${id} se chama ${nome} e tem ${idade} anos.`)
 };
+
 
 module.exports = {
     getAllLivros,
