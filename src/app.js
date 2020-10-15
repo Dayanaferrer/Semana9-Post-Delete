@@ -2,8 +2,8 @@ const express = require('express');
 const app = express();
 
 const index = require('./router/index');
-const routerLivros = require('./router/livrosRouter');
-const routerColaboradoras = require('./router/colaboradorasRoutes');
+const livros = require('./router/livrosRouter');
+const colaboradoras = require('./router/colaboradorasRoutes');
 
 app.use(express.json());
 
@@ -17,7 +17,7 @@ app.use(function (req, res, next) {
   });
 
 app.use('/', index)
-app.use('/routerLivros', routerLivros)
-app.use ('/routerColaboradoras', routerColaboradoras)
+app.use('/livros', livros)
+app.use ('/colaboradoras', colaboradoras)
 
 module.exports = app
