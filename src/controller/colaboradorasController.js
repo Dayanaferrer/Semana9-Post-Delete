@@ -16,7 +16,7 @@ const postColaboradoras = (req, res) => {
     const {id, noneColaboradora, setor, ocupacao, horarioDeTrabalho} = req.body;
     colaboladoras.push({id, noneColaboradora, setor, ocupacao, horarioDeTrabalho})
     
-    fs.writeFile('./src/model/colaboradoras.json', JSON.stringify(colaboladoras), 'utf-8' , function (err){
+    fs.writeFile('./src/model/colaboradoras.json', JSON.stringify(colaboladoras), 'utf8' , function (err){
         if(err){
             return res.status(424).send({message:err});
         }
@@ -32,7 +32,7 @@ const deletarColaboradoras = (req, res) => {
     const index = colaboladoras.indexOf(filtrarColaboradoras);
     colaboladoras.splice(index, 1);
 
-    fs.writeFile('./src/model/colaboradoras.json', JSON.stringify(colaboladoras), 'utf-8', function (err){
+    fs.writeFile('./src/model/colaboradoras.json', JSON.stringify(colaboladoras), 'utf8', function (err){
         if (err){
             return res.status(424).send({message: err});
         }

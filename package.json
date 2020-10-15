@@ -1,5 +1,5 @@
 {
-  "name": "Semana9-Post+Delete",
+  "name": "Semana9-Post+-Delete",
   "version": "1.0.0",
   "description": "Implementação de um sistema de uma livraria.",
   "main": "index.js",
@@ -22,6 +22,7 @@
     "express": "^4.17.1"
   },
   "dependencies": {
-    "body-parser": "^1.19.0"
+    "body-parser": "^1.19.0",
+    "nodemon": "^2.0.5"
   }
 }
