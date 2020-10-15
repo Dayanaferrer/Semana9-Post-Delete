@@ -1,83 +1,83 @@
 [
     {
         "id": 1,
-        "nome": "A Hora da Estrela",
-        "genero": "Romance",
+        "nomeLivro": "A Hora da Estrela",
         "autora": "Clarice Lispector",
         "editora": "Rocco",
         "numeroDePaginas":"88 páginas",
         "dataDePublicacao":"04/08/1998"
-
     },
       {
         "id": 2,
-        "nome": "",
-        "genero": "",
-        "autora": "",
-        "editora": "",
-        "numeroDePaginas":"",
-        "dataDePublicacao":""
-
+        "nomeLivro": "Estrelas além do tempo",
+        "autora": "Margot Lee Shetterly",
+        "editora": "HarperCollins",
+        "numeroDePaginas":"344 páginas",
+        "dataDePublicacao":"22/12/2016"
     },
       {
         "id": 3,
-        "nome": "",
-        "genero": "",
-        "autora": "",
-        "editora": "",
-        "numeroDePaginas":"",
-        "dataDePublicacao":""
-
+        "nomeLivro": "Mulheres, Raça e Classe",
+        "autora": "Angela Davis",
+        "editora": "Boitempo",
+        "numeroDePaginas":"248 páginas",
+        "dataDePublicacao":"1981"
     },
     {
         "id": 4,
-        "nome": "",
-        "genero": "",
-        "autora": "",
-        "editora": "",
-        "numeroDePaginas":"",
-        "dataDePublicacao":""
-
+        "nomeLivro": "E eu não sou uma mulher?: Mulheres negras e feminismo",
+        "autora": "Bell hooks",
+        "editora": "Rosa dos Tempos",
+        "numeroDePaginas":"320 páginas",
+        "dataDePublicacao":"11/11/2019"
     },
     {
         "id": 5,
-        "nome": "",
-        "genero": "",
-        "autora": "",
-        "editora": "",
-        "numeroDePaginas":"",
-        "dataDePublicacao":""
-
+        "nomeLivro": "Perto do Coração Selvagem",
+        "autora": "Clarice Lispector",
+        "editora": "Rocco",
+        "numeroDePaginas":"203 páginas",
+        "dataDePublicacao":"1943"
     },
     {
         "id": 6,
-        "nome": "",
-        "genero": "",
-        "autora": "",
-        "editora": "",
-        "numeroDePaginas":"",
-        "dataDePublicacao":""
-
+        "nomeLivro": "A cor Púrpura",
+        "autora": "Alice Walker",
+        "editora": "Harcourt",
+        "numeroDePaginas":"336 páginas",
+        "dataDePublicacao":"1982"
     },
     {
         "id": 7,
-        "nome": "",
-        "genero": "",
-        "autora": "",
-        "editora": "",
-        "numeroDePaginas":"",
-        "dataDePublicacao":""
-
+        "nomeLivro": "Pensamento feminista negro: conhecimento, consciência e a politica do empoderamento",
+        "autora": "Patricia Hill Collins",
+        "editora": "Boitempo",
+        "numeroDePaginas":"384 páginas",
+        "dataDePublicacao":"1990"
     },
     {
         "id": 8,
-        "nome": "",
-        "genero": "",
-        "autora": "",
-        "editora": "",
-        "numeroDePaginas":"",
-        "dataDePublicacao":""
-
+        "nomeLivro": "O feminismo é para todo mundo",
+        "autora": "Bell hooks",
+        "editora": "Rosa dos tempos",
+        "numeroDePaginas":"175 páginas",
+        "dataDePublicacao":"2018"
+    },
+    {
+        "id": 9,
+        "nomeLivro": "Irmã outsider: Ensaios e conferências",
+        "autora": "Audre Lorde",
+        "editora": "Autêntica",
+        "numeroDePaginas":"240 páginas",
+        "dataDePublicacao":"2/12/2019"
+    },
+    {
+        "id": 10,
+        "nomeLivro": "Fundamentos de Circuitos Elêtricos 5ª Edição",
+        "autora": "Charles K. Alexander, Matthew Sadiku",
+        "editora": "AMGH",
+        "numeroDePaginas":"896 páginas",
+        "dataDePublicacao":"11/03/2013"
     }
 
 ]

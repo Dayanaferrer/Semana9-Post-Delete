@@ -1,43 +1,41 @@
 const livros = require( '../model/livros.json' );
-const colaboladoras = require( '../model/colaboradoras.json' );
+const fs = require('fs');
 
 const getAllLivros = (req, res) => {
     console.log(req.url);
     res.status(200).send(livros);
 };
 
+const postLivro = (req, res) => {
+    console.log(req.body);
+    const {id, nomeLivro, autora, numeroDePaginas, dataDePublicacao } = req.body;
+    livros.push({id, nomeLivro, autora, numeroDePaginas, dataDePublicacao });
+
+    fs.writeFile('./src/model/livros.json', JSON.stringify(livros), 'utf-8', function(err){
+        if(err){
+            return res.status(424).send({message: err});
+        }
+    });
+}
+
 const deletarLivro = (req,res) => {
-   
-    res.status(200).send(livros);
-};
+   const id = req.params.id;
+   const filtrarLivro = livros.find((livros) => livros.id == id);
+   const index = livros.indexOf(filtrarLivro);
+   livros.splice(index, 1);
 
-const getAllColaboradoras = (req,res) => {
-    res.status(200).send(colaboladoras);
-};
+   fs.writeFile('./src/model/livros.json', JSON.stringify(livros), 'utf-8', function (err){
+       if (err) {
+           return res.status(424).send({message: err});
+       }
 
-const deletarColaboradoras = (req,res) => {
-    res.status(200).send(colaboladoras);
-};
-
-const getLivrosGenero = (req,res) => {
-    res.status(200).send(getLivrosGenero);
-};
-
-const getAgeByID = (req,res) => {
-    const anoAtual = 2020;
-    const id = req.params.id;
-    const nome = filtered.nome;
-    const anoDeNascimento = filtered.id.slice (2, -4);
-    const idade = anoAtual - anoDeNascimento;
-    res.status(200).send (`Colaboradora com o id ${id} se chama ${nome} e tem ${idade} anos.`)
-};
-
+       console.log('Arquivo adicionado e atualizado!!!');
+   });
+        res.status(200).send(livros);
+}
 
 module.exports = {
     getAllLivros,
-    deletarLivro,
-    getAllColaboradoras,
-    deletarColaboradoras,
-    getLivrosGenero,
-    getAgeByID
+    postLivro,
+    deletarLivro
 };

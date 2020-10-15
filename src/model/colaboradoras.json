@@ -12,5 +12,47 @@
         "setor": "Midia",
         "ocupacao": "Fotografa",
         "horarioDeTrabalho": "15:00h - 18:30h "
+    },
+    {
+        "id": "2020693",
+        "nomeColaboradora": "Beatriz Velame",
+        "setor": "",
+        "ocupacao": "",
+        "horarioDeTrabalho": "7:30h - 17:30h "
+    },
+    {
+        "id": "2020694",
+        "nomeColaboradora": "Fernanda Magnal",
+        "setor": "",
+        "ocupacao": "",
+        "horarioDeTrabalho": "16:00h - 20:00h "
+    },
+    {
+        "id": "2020695",
+        "nomeColaboradora": "Janaína Dutra",
+        "setor": "",
+        "ocupacao": "",
+        "horarioDeTrabalho": "09:00h - 19:00h "
+    },
+    {
+        "id": "2020696",
+        "nomeColaboradora": "Julia Lima",
+        "setor": "",
+        "ocupacao": "",
+        "horarioDeTrabalho": "15:00h - 18:30h "
+    },
+    {
+        "id": "2020697",
+        "nomeColaboradora": "Katemari Rosa",
+        "setor": "",
+        "ocupacao": "",
+        "horarioDeTrabalho": "10:00h - 16:30h "
+    },
+    {
+        "id": "2020698",
+        "nomeColaboradora": "Natália Marinho",
+        "setor": "",
+        "ocupacao": "",
+        "horarioDeTrabalho": "15:00h - 18:30h "
     }
 ]
