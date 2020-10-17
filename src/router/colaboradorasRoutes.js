@@ -9,4 +9,8 @@ router.post('/:id', controller.postColaboradoras);
 
 router.delete(':/id', controller.deletarColaboradoras);
 
+router.put('/:id', controller.putColaboradoras);
+
+router.patch('/:id', controller.patchColaboradoras);
+
 module.exports = router;
