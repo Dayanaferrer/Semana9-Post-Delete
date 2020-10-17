@@ -38,13 +38,13 @@
         "id": "2020696",
         "nomeColaboradora": "Julia Lima",
         "setor": "",
-        "ocupacao": "",
+        "ocupacao": "Atendente",
         "horarioDeTrabalho": "15:00h - 18:30h "
     },
     {
         "id": "2020697",
         "nomeColaboradora": "Katemari Rosa",
-        "setor": "",
+        "setor": "Administrativo",
         "ocupacao": "",
         "horarioDeTrabalho": "10:00h - 16:30h "
     },
@@ -52,7 +52,7 @@
         "id": "2020698",
         "nomeColaboradora": "Natália Marinho",
         "setor": "",
-        "ocupacao": "",
+        "ocupacao": "Recepcionista",
         "horarioDeTrabalho": "15:00h - 18:30h "
     }
 ]
